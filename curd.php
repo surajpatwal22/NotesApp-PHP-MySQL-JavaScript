@@ -149,10 +149,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             position: absolute;
             left: 0.6rem;
             top: 3rem;
-            transition: 0.5s;
+            transition: 0.4s;
         }
         .heading:hover::after{
-            width: 30%;
+            width: 28%;
         }
     </style>
 </head>
@@ -165,8 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
                 <li><a href="#" class="nav-link px-2 link-secondary">About</a></li>
-                <li><a href="#" class="nav-link px-2 link-secondary">Pricing</a></li>
-                <li><a href="#" class="nav-link px-2 link-secondary">FAQs</a></li>
+                <li><a href="#" class="nav-link px-2 link-secondary">Services</a></li>
                 <li><a href="#" class="nav-link px-2 link-secondary">Contact</a></li>
             </ul>
         </header>
